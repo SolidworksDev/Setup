@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:Setup"
+"ProjectName" = "8:AddinSetup"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -15,32 +15,20 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_83016357F3CF497DA4D514068B220BDA"
+        "MsmKey" = "8:_5943C85C0E204C9D847CC383F2EA272A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_9E605DE2989104717E2440D3ABB9386D"
+        "MsmKey" = "8:_6132C31B432AE7F1BC98A0AC29B7F3CD"
         "OwnerKey" = "8:_F10E8FB5694C462E84F957114FA645BA"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_BCC809E3235A44F9B22F9DA42DB7F03E"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_C8EF90C005CC39873E3F16FFE478EFCC"
-        "OwnerKey" = "8:_9E605DE2989104717E2440D3ABB9386D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E6E2112A9D5F89B505090FE14E22710B"
-        "OwnerKey" = "8:_F10E8FB5694C462E84F957114FA645BA"
+        "OwnerKey" = "8:_6132C31B432AE7F1BC98A0AC29B7F3CD"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -52,7 +40,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_9E605DE2989104717E2440D3ABB9386D"
+        "OwnerKey" = "8:_F10E8FB5694C462E84F957114FA645BA"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -64,19 +52,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_83016357F3CF497DA4D514068B220BDA"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F10E8FB5694C462E84F957114FA645BA"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E6E2112A9D5F89B505090FE14E22710B"
+        "OwnerKey" = "8:_6132C31B432AE7F1BC98A0AC29B7F3CD"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -106,10 +82,10 @@
             "ComponentsUrl" = "8:"
                 "Items"
                 {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0"
                     {
-                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    "Name" = "8:Microsoft .NET Framework 4 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0"
                     }
                     "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
                     {
@@ -204,7 +180,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                "FrameworkVersion" = "8:.NETFramework,Version=v4.0"
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=131000"
                 }
@@ -212,21 +188,10 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_83016357F3CF497DA4D514068B220BDA"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5943C85C0E204C9D847CC383F2EA272A"
             {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.Web.Services3, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_83016357F3CF497DA4D514068B220BDA"
-                    {
-                    "Name" = "8:Microsoft.Web.Services3.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Microsoft.Web.Services3.dll"
-            "TargetName" = "8:"
+            "SourcePath" = "8:..\\AnthroAddIn\\Autodesk.AnthroAddin.Inventor.addin"
+            "TargetName" = "8:Autodesk.AnthroAddin.Inventor.addin"
             "Tag" = "8:"
             "Folder" = "8:_BF4BB986BA44448F9B7E34EBAA75BB81"
             "Condition" = "8:"
@@ -243,14 +208,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9E605DE2989104717E2440D3ABB9386D"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6132C31B432AE7F1BC98A0AC29B7F3CD"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:TRUE"
-            "AssemblyAsmDisplayName" = "8:Autodesk.Inventor.Interop, Version=17.0.0.0, Culture=neutral, PublicKeyToken=d84147f8b4276564, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Autodesk.Inventor.Interop, Version=19.0.0.0, Culture=neutral, PublicKeyToken=d84147f8b4276564, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_9E605DE2989104717E2440D3ABB9386D"
+                    "_6132C31B432AE7F1BC98A0AC29B7F3CD"
                     {
                     "Name" = "8:Autodesk.Inventor.Interop.dll"
                     "Attributes" = "3:512"
@@ -274,26 +239,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BCC809E3235A44F9B22F9DA42DB7F03E"
-            {
-            "SourcePath" = "8:\\\\private\\home$\\Tim.Clift\\Dev\\Source\\AnthroAddIn\\Autodesk.AnthroAddin.Inventor.addin"
-            "TargetName" = "8:Autodesk.AnthroAddin.Inventor.addin"
-            "Tag" = "8:"
-            "Folder" = "8:_BF4BB986BA44448F9B7E34EBAA75BB81"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C8EF90C005CC39873E3F16FFE478EFCC"
             {
             "AssemblyRegister" = "3:1"
@@ -308,37 +253,6 @@
                     }
                 }
             "SourcePath" = "8:stdole.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_BF4BB986BA44448F9B7E34EBAA75BB81"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E6E2112A9D5F89B505090FE14E22710B"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Microsoft.Web.Services3, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_E6E2112A9D5F89B505090FE14E22710B"
-                    {
-                    "Name" = "8:Microsoft.Web.Services3.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Microsoft.Web.Services3.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_BF4BB986BA44448F9B7E34EBAA75BB81"
@@ -411,24 +325,24 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Setup"
+        "ProductName" = "8:Anthro Addin"
         "ProductCode" = "8:{D03D7114-C344-4AE0-A010-110E96B5CC84}"
-        "PackageCode" = "8:{419E81F7-83D4-485D-81D3-A439A6D69AA2}"
+        "PackageCode" = "8:{B2D9C80B-667D-4433-A48F-BB1CB204CA3E}"
         "UpgradeCode" = "8:{4A26724C-1394-42A1-8387-D16C001E4397}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:FALSE"
+        "InstallAllUsers" = "11:TRUE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Microsoft"
+        "Manufacturer" = "8:Anthro Corp."
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Setup"
+        "Title" = "8:Anthro Addin"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Microsoft"
+        "ARPCONTACT" = "8:Tim Clift"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:"
+        "ARPCOMMENTS" = "8:Anthro Inventor Addin"
         "ARPURLINFOABOUT" = "8:"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"

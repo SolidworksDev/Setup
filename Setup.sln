@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AddinSetup", "Setup.vdproj", "{3A54739D-4840-4BB9-A5F1-2451EFEC832E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A54739D-4840-4BB9-A5F1-2451EFEC832E}.Debug|Default.ActiveCfg = Debug
+		{3A54739D-4840-4BB9-A5F1-2451EFEC832E}.Debug|Default.Build.0 = Debug
+		{3A54739D-4840-4BB9-A5F1-2451EFEC832E}.Release|Default.ActiveCfg = Release
+		{3A54739D-4840-4BB9-A5F1-2451EFEC832E}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
